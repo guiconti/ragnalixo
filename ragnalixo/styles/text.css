@@ -1,0 +1,42 @@
+:root {
+	--font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+		Helvetica Neue, sans-serif;
+	--thin-weight: 100;
+	--extra-light-weight: 200;
+	--light-weight: 300;
+	--normal-weight: 400;
+	--medium-weight: 500;
+	--semi-bold-weight: 600;
+	--bold-weight: 700;
+	--extra-bold-weight: 800;
+	--black-weight: 900;
+	--extra-black-weight: 950;
+
+	--paragraph-1: var(--normal-weight) 1.5rem/1.333 var(--font-family);
+	--paragraph-2: var(--normal-weight) 1.25rem/1.4 var(--font-family);
+	--paragraph-3: var(--normal-weight) 1rem/1.25 var(--font-family);
+	--paragraph-4: var(--normal-weight) 0.875rem/1.143 var(--font-family);
+	--paragraph-5: var(--normal-weight) 0.75rem/1.333 var(--font-family);
+
+	--paragraph-1-emphasis: var(--bold-weight) 1.5rem/1.333 var(--font-family);
+	--paragraph-2-emphasis: var(--bold-weight) 1.25rem/1.4 var(--font-family);
+	--paragraph-3-emphasis: var(--bold-weight) 1rem/1.25 var(--font-family);
+	--paragraph-4-emphasis: var(--bold-weight) 0.875rem/1.143 var(--font-family);
+	--paragraph-5-emphasis: var(--bold-weight) 0.75rem/1.333 var(--font-family);
+
+	--heading-1: var(--medium-weight) 4rem/1.286 var(--font-family);
+	--heading-2: var(--medium-weight) 2.5rem/1.333 var(--font-family);
+	--heading-3: var(--medium-weight) 1.25rem/1.4 var(--font-family);
+	--heading-4: var(--medium-weight) 1.125rem/1.333 var(--font-family);
+	--heading-5: var(--normal-weight) 1rem/1.5 var(--font-family);
+	--heading-6: var(--normal-weight) 0.875rem/1.429 var(--font-family);
+	--heading-7: var(--normal-weight) 0.75rem/1.166 var(--font-family);
+
+	--heading-1-emphasis: var(--semi-bold-weight) 4rem/1.286 var(--font-family);
+	--heading-2-emphasis: var(--semi-bold-weight) 2.5rem/1.333 var(--font-family);
+	--heading-3-emphasis: var(--semi-bold-weight) 1.25rem/1.4 var(--font-family);
+	--heading-4-emphasis: var(--semi-bold-weight) 1.125rem/1.333 var(--font-family);
+	--heading-5-emphasis: var(--semi-bold-weight) 1rem/1.5 var(--font-family);
+	--heading-6-emphasis: var(--semi-bold-weight) 0.875rem/1.429 var(--font-family);
+	--heading-7-emphasis: var(--semi-bold-weight) 0.75rem/1.166 var(--font-family);
+}

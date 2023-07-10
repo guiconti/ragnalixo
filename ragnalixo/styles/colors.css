@@ -1,0 +1,28 @@
+:root {
+	--black: #000000;
+	--white: #ffffff;
+
+	/* Layers */
+	--baseLayerColor: var(--black);
+	--secondaryLayerColor: var(--black);
+
+	/* Text */
+	--primaryTextColor: var(--black);
+	--linkColor: var(--black);
+
+	/* Buttons */
+	--primaryButtonColor: var(--black);
+	--primaryButtonTextColor: var(--white);
+	--primaryButtonHoverColor: var(--black);
+	--transparentButtonTextColor: var(--black);
+	--transparentButtonHoverColor: var(--black);
+
+	/* Inputs */
+	--inputBackground: var(--black);
+	--inputBackgroundHover: var(--black);
+
+	/* FAlerts */
+	--alertBackground: var(--black);
+	--errorAlertBackground: var(--black);
+	--errorAlertTextColor: var(--black);
+}

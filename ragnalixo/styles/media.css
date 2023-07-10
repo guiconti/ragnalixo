@@ -1,0 +1,21 @@
+@custom-media --extra-small-only all and (max-width: 479px);
+@custom-media --small-only all and (min-width: 480px and max-width: 734px);
+@custom-media --medium-only all and (min-width: 735px and max-width: 979px);
+@custom-media --large-only all and (min-width: 980px and max-width: 1279px);
+@custom-media --extra-large-only all and (min-width: 1280px and max-width: 1599px);
+@custom-media --2-extra-large-only all and (min-width: 1600px and max-width: 1979px);
+@custom-media --3-extra-large-only all and (min-width: 1980px);
+
+@custom-media --small-and-above all and (min-width: 480px);
+@custom-media --medium-and-above all and (min-width: 735px);
+@custom-media --large-and-above all and (min-width: 980px);
+@custom-media --extra-large-and-above all and (min-width: 1280px);
+@custom-media --2-extra-large-and-above all and (min-width: 1600px);
+@custom-media --3-extra-large-and-above all and (min-width: 1980px);
+
+@custom-media --extra-small-and-below all and (max-width: 479px);
+@custom-media --small-and-below all and (max-width: 734px);
+@custom-media --medium-and-below all and (max-width: 979px);
+@custom-media --large-and-below all and (max-width: 1279px);
+@custom-media --extra-large-and-below all and (max-width: 1599px);
+@custom-media --2-extra-large-and-below all and (max-width: 1979px);

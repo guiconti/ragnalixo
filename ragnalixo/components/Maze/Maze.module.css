@@ -1,0 +1,60 @@
+.map {
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-template-rows: repeat(5, auto);
+	grid-gap: 10px;
+	margin-top: 1rem;
+}
+
+.instructions {
+	font-size: 1.25rem;
+}
+
+.cell {
+	min-height: 100px;
+	position: relative;
+}
+
+.from {
+	background: blue;
+}
+
+.to {
+	background: green;
+}
+
+.up,
+.right,
+.left,
+.down {
+	content: "";
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 9999px;
+	background: red;
+	color: white;
+}
+
+.up {
+	top: 0;
+	left: calc(50% - 9px);
+}
+
+.right {
+	right: 0;
+}
+
+.left {
+	left: 0;
+}
+
+.down {
+	bottom: 0;
+	left: calc(50% - 9px);
+}
+
+.path {
+	margin-top: 0.5rem;
+	font-size: 1.5rem;
+}
