@@ -200,13 +200,18 @@ export default function Maze() {
 	const [to, setTo] = useState<number>();
 	const [path, setPath] = useState<Array<number>>([]);
 
-	const onCellClick = useCallback((position: number, to?: boolean) => {
-		if (to) {
-			setTo(position);
-			return;
-		}
-		setFrom(position);
-	}, []);
+	const onCellClick = useCallback(
+		(position: number, selectTo?: boolean) => {
+			if (selectTo) {
+				if (to === position) return;
+				setTo(position);
+				return;
+			}
+			if (from === position) return;
+			setFrom(position);
+		},
+		[to, from]
+	);
 
 	useEffect(() => {
 		if (!from || !to) return;
