@@ -178,7 +178,7 @@ function Cell({ position, onCellClick, from, to, up, right, down, left, next, pa
 			})}
 			onClick={onClick}
 		>
-			{position}
+			<img src={`images/maze${position}.jpg`} />
 			{next && pathIndex && (
 				<span
 					className={cx({
